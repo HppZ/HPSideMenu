@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)awakeFromNib
+{
+    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentViewController"];
+    self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"leftMenuViewController"];
+   
+}
+
 @end
