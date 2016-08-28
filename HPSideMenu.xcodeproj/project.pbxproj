@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639FBD711D72BDAE00171F87 /* UIViewController+HPSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 639FBD701D72BDAE00171F87 /* UIViewController+HPSideMenu.m */; };
 		63FF273C1D70226D009AF118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF273B1D70226D009AF118 /* main.m */; };
 		63FF273F1D70226D009AF118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF273E1D70226D009AF118 /* AppDelegate.m */; };
 		63FF27421D70226D009AF118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF27411D70226D009AF118 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		639FBD6F1D72BDAE00171F87 /* UIViewController+HPSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HPSideMenu.h"; path = "Classes/UIViewController+HPSideMenu.h"; sourceTree = "<group>"; };
+		639FBD701D72BDAE00171F87 /* UIViewController+HPSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HPSideMenu.m"; path = "Classes/UIViewController+HPSideMenu.m"; sourceTree = "<group>"; };
 		63FF27371D70226D009AF118 /* HPSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FF273B1D70226D009AF118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63FF273D1D70226D009AF118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		63FF27511D702281009AF118 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				639FBD6F1D72BDAE00171F87 /* UIViewController+HPSideMenu.h */,
+				639FBD701D72BDAE00171F87 /* UIViewController+HPSideMenu.m */,
 				63FF27521D7024EF009AF118 /* HPSideMenu.h */,
 				63FF27531D7024EF009AF118 /* HPSideMenu.m */,
 			);
@@ -165,6 +170,7 @@
 			files = (
 				63FF27421D70226D009AF118 /* ViewController.m in Sources */,
 				63FF27541D7024EF009AF118 /* HPSideMenu.m in Sources */,
+				639FBD711D72BDAE00171F87 /* UIViewController+HPSideMenu.m in Sources */,
 				63FF273F1D70226D009AF118 /* AppDelegate.m in Sources */,
 				63FF273C1D70226D009AF118 /* main.m in Sources */,
 			);
